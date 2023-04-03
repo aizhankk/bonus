@@ -1,0 +1,49 @@
+
+.hi{
+  background-color: rgb(42, 44, 165);
+  color: white;
+  padding: 1.5%;
+}
+
+.all div{
+  display: flex;
+  position: absolute;
+}
+ 
+.fac{
+  text-align: center;
+  margin-left: 29%;
+  background-color: white;
+  color: rgb(42, 44, 165);
+}
+
+
+.int{
+  text-align: center;
+  margin-left: 79%;
+  background-color: white;
+  color: rgb(42, 44, 165);
+}
+
+
+#clicker{
+  margin-left: 80px;
+}
+
+
+#cont {
+  display: flex;
+}
+
+.main div{
+  margin-left: 70px;
+  padding: 13%;
+}
+
+.dost{
+  font-size: 35px;
+  align-items: center;
+  text-align: center;
+  padding: 3%;
+  color: rgb(165, 112, 42);
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="7.css">
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <style>
+       #flip1 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #fac, #flip2 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #fac{
+        padding: 15px;
+        display: none; 
+      }
+
+      #flip3 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #int, #flip4 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #int{
+        padding: 15px;
+        display: none; 
+      }
+
+      #about, #flip5 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #about{
+        padding: 15px;
+        display: none; 
+      }
+
+    #panel, #flip {
+     padding: 5px;
+     text-align: center;
+     background-color: rgb(42, 44, 165);
+     border: solid 1px #c3c3c3;
+     color: white;
+    }
+
+    #panel {
+      padding: 50px;
+     display: none;
+    }
+    </style>
+    
+    <script>
+
+      $(document).ready(function(){
+        $("#flip2").click(function(){
+          $("#fac").slideToggle("slow");
+        });
+      });
+
+     
+
+      $(document).ready(function(){
+        $("#flip4").click(function(){
+          $("#int").slideToggle("slow");
+        });
+      });
+
+      $(document).ready(function(){
+        $("#flip5").click(function(){
+          $("#about").slideToggle("slow");
+        });
+      });
+
+      
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#panel").slideToggle("slow");
+        });
+      });
+    </script>
+
+
+    <div class="hi">
+    <div class="container" id="another">
+      <div class="row">
+        <div class="col" id="flip1"><a href="1.html"> Астана</a></div>
+        <div class="col" id="flip2">Достопримечательности</a></div>
+        <div class="col" id="flip3"> <a href="2.html">Карта</a> </div>
+        <div class="col" id="flip4">Национальные</div>
+        
+      </div>
+    </div>
+    </div>
+
+
+    <div class="all">
+      <div class="fac" id="fac">
+        <p> <a href="6.html">Президентская Резиденция Акорда</a></p>
+        <p><a href="5.html">Дворец мира и согласия</a> </p>
+        <p> <a href="4.html">Байтерек</a> </p>
+        <p> <a href="3.html">Все</a> </p>
+      </div>
+
+      <div class="int" id="int">
+        <p> <a href="7.html">Блюда</a></p>
+        <p><a href="8.html">Традиции</a></p>
+      </div>
+    </div>
+
+
+
+    <p id="bluda">Национальные блюда Казахов</p>
+
+    <div class="container">
+       
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="https://foodbay.com/wiki/wp-content/uploads/2020/09/eb995f.jpg" alt="Los Angeles" style="width:100%; height: 600px;">
+          </div>
+    
+          <div class="item">
+            <img src="https://static.1000.menu/img/content-v2/81/d6/17132/kazaxskie-baursaki-na-kefire_1592987900_9_max.jpg" alt="Chicago" style="width:100%; height: 600px;">
+          </div>
+        
+          <div class="item">
+            <img src="http://multivarka-receptik.ru/wp-content/uploads/2022/10/beshbarmak-reczept-klassicheskij.jpg" alt="New york" style="width:100%; height: 600px;">
+          </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+
+    
+    
+
+    <div style="margin-top: 5%;" class="container" id="info" >
+      <div class="hhh">
+        <div style="margin-top: 9%;">
+          <h3>Бешбармак</h2>
+          <h5>Одним из самых популярных блюд считается бешбармак (бишбармак, бесбармак), что в переводе означает ‘пять пальцев’. Его традиционно готовят на семейные торжества или для угощения дорогих гостей. В состав блюда входит мясо (конина, верблюжатина, говядина или баранина), а также крупная тонкая лапша (жайма), зелень, репчатый лук, специи.</h5>
+        </div>
+        <div>
+          <img src="https://cdn.nur.kz/images/720/ba8f4b34c927d345.webp" alt="">
+        </div>
+      </div>
+
+
+
+      <div class="hhh">
+        <div id="divvv" style="margin-top: 9%;">
+          <h3>Куырдак</h2>
+          <h5>Kазахи предпочитают разные блюда из мяса. Самым популярным считается куырдак — горячее жирное жаркое из бараньей печени, почек, сердца, легких и курдючного жира. Мясной ливер нарезают небольшими кусочками и обжаривают в курдючном жире с луком до готовности, солят и перчат. Перед окончанием жарки добавляют картофель и немного бульона, тушат и подают к столу с зеленью.</h5>
+        </div>
+        <div>
+          <img src="https://cdn.nur.kz/images/720/f5487ba5d793d2c6.webp" alt="">
+        </div>
+      </div>
+
+
+
+      <div class="hhh">
+        <div id="divvv" style="margin-top: 9%;">
+          <h3>Казы</h2>
+          <h5>это домашняя колбаса из конины, которую не найдешь в супермаркете. Она считается настоящим деликатесом и готовится в разных вариантах — вареная, отварная, сыровяленая.</h5>
+        </div>
+        <div>
+          <img src="https://cdn.nur.kz/images/720/613ade3d3506355a.webp" alt="">
+        </div>
+      </div>
+
+
+      <div class="hhh">
+        <div id="divvv" style="margin-top: 9%;">
+          <h3>Баурсак</h2>
+          <h5>это казахский пончик, приготовленный из пресного или дрожжевого теста. Иногда к муке добавляют творог. Как готовят баурсаки в Казахстане? Сначала замешивают тесто из муки, воды или молока и яиц. Готовое тесто раскатывают жгутами и нарезают небольшими кусочками. Из них делают шарики и обжаривают в большом количестве жира.</h5>
+        </div>
+        <div>
+          <img src="https://cdn.nur.kz/images/720/12d3c3a8eebc200f.webp" alt="">
+        </div>
+      </div>
+
+
+      <div class="hhh">
+        <div id="divvv" style="margin-top: 9%;">
+          <h3>Жент</h2>
+          <h5>одна из разновидностей национальных сладостей, которые любят готовить казахские кулинары. В чем особенности казахского блюда жент? Его делают из пшена, сахара и сливочного масла с добавлением изюма. Промытое пшено обжаривают на сухой сковороде, измельчают вместе с сахаром в муку. Добавляют изюм, все хорошо перемешивают. Сливочным топленым маслом заливают пшенную муку, аккуратно перемешивают.</h5>
+        </div>
+        <div>
+          <img src="https://cdn.nur.kz/images/720/39edbb23080976b3.webp" alt="">
+        </div>
+      </div>
+      
+
+    </div>
+
+
+
+    <table class="table table-hover">
+      <tbody>
+        <tr>
+          <th><h3>Бешбармак</h2>
+            <h5>Одним из самых популярных блюд считается бешбармак (бишбармак, бесбармак), что в переводе означает ‘пять пальцев’. Его традиционно готовят на семейные торжества или для угощения дорогих гостей. В состав блюда входит мясо (конина, верблюжатина, говядина или баранина), а также крупная тонкая лапша (жайма), зелень, репчатый лук, специи.</h5></th>
+          <td><img src="https://cdn.nur.kz/images/720/ba8f4b34c927d345.webp" alt=""></td>
+        </tr>
+        <tr>
+          <th><h3>Баурсак</h2>
+            <h5>это казахский пончик, приготовленный из пресного или дрожжевого теста. Иногда к муке добавляют творог. Как готовят баурсаки в Казахстане? Сначала замешивают тесто из муки, воды или молока и яиц. Готовое тесто раскатывают жгутами и нарезают небольшими кусочками. Из них делают шарики и обжаривают в большом количестве жира.</h5></th>
+          <td><img src="https://cdn.nur.kz/images/720/12d3c3a8eebc200f.webp" alt=""></td>
+
+        </tr>
+        <tr>
+          <th><h3>Куырдак</h2>
+            <h5>Kазахи предпочитают разные блюда из мяса. Самым популярным считается куырдак — горячее жирное жаркое из бараньей печени, почек, сердца, легких и курдючного жира. Мясной ливер нарезают небольшими кусочками и обжаривают в курдючном жире с луком до готовности, солят и перчат. Перед окончанием жарки добавляют картофель и немного бульона, тушат и подают к столу с зеленью.</h5></th>
+          <td><img src="https://cdn.nur.kz/images/720/f5487ba5d793d2c6.webp" alt=""></td>
+        </tr>
+        <tr>
+          <th><h3>Казы</h2>
+            <h5>это домашняя колбаса из конины, которую не найдешь в супермаркете. Она считается настоящим деликатесом и готовится в разных вариантах — вареная, отварная, сыровяленая.</h5></th>
+          <td><img src="https://cdn.nur.kz/images/720/613ade3d3506355a.webp" alt=""></td>
+        </tr>
+
+        <tr>
+          <th><h3>Жент</h2>
+            <h5>одна из разновидностей национальных сладостей, которые любят готовить казахские кулинары. В чем особенности казахского блюда жент? Его делают из пшена, сахара и сливочного масла с добавлением изюма. Промытое пшено обжаривают на сухой сковороде, измельчают вместе с сахаром в муку. Добавляют изюм, все хорошо перемешивают. Сливочным топленым маслом заливают пшенную муку, аккуратно перемешивают.</h5></th>
+          <td><img src="https://cdn.nur.kz/images/720/39edbb23080976b3.webp" alt=""></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
+
+
+
+
+    <div class="contaier" id="nz">
+      <div>
+
+        <img src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__popular_attractions/public/hero_banner/Palace_of_Peace_and_Reconciliation.jpg" alt="">
+        <p>Дворец Мира и Согласия</p>
+      </div>
+      <div>
+        <img src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__popular_attractions/public/hero_banner/Palace_of_the_President.jpg" alt="">
+        <p>Дворец Президента "Ак Орда"</p>
+      </div>
+      <div>
+        <img src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__popular_attractions/public/hero_banner/Museum_of_the_First_President_of_the_Republic_of_Kazakhstan.jpg" alt="">
+        <p>Музей первого Президента РК</p>
+      </div>
+      <div>
+        <img src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__popular_attractions/public/hero_banner/Map_of_Kazakhstan_Atameken.jpg" alt="">
+        <p>Карта Казахстана "Атамекен"</p>
+      </div>
+    </div>
+
+
+    <div class="contaier" id="nz">
+      <div>
+
+        <img src="https://www.tripzaza.com/ru/destinations/wp-content/uploads/2017/08/Han_SHatyir-e1503117169774.jpg" alt="">
+        <p>Хан-Шатыр</p>
+      </div>
+      <div>
+        <img src="https://www.tripzaza.com/ru/destinations/wp-content/uploads/2017/08/Muzey_Nazarbaeva-e1503120719414.jpg" alt="">
+        <p>Музей Первого Президента республики</p>
+      </div>
+      <div>
+        <img src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__popular_attractions/public/hero_banner/Museum_of_the_First_President_of_the_Republic_of_Kazakhstan.jpg" alt="">
+        <p>Музей первого Президента РК</p>
+      </div>
+      <div>
+        <img src="https://tripplanet.ru/wp-content/uploads/asia/kazakhstan/astana/shabyt-palace-of-creativity.jpg" alt="">
+        <p>Дворец творчества «Шабыт»</p>
+      </div>
+    </div>
+  </body>
+</html>

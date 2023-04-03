@@ -1,0 +1,55 @@
+.hi{
+  background-color: rgb(42, 44, 165);
+  color: white;
+  padding: 1.5%;
+  display: flex;
+}
+
+
+
+.all div{
+  display: flex;
+  position: absolute;
+}
+
+.fac{
+  text-align: center;
+  margin-left: 29%;
+  background-color: white;
+  color: rgb(42, 44, 165);
+}
+
+.int{
+  text-align: center;
+  margin-left: 79%;
+  background-color: white;
+  color: rgb(42, 44, 165);
+}
+
+.img{
+  height: 600px;
+  width: 1520px;
+}
+
+#astana{
+  position: absolute;
+  font-size: 100px;
+  margin-top: -400px;
+  margin-left: 600px;
+  color: aliceblue;
+}
+
+.main{
+  display: flex;
+  padding: 3%;
+}
+
+.second{
+  display: inline;
+}
+
+
+
+
+
+

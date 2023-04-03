@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="1.css">
+	  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <style>
+       #flip1 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #fac, #flip2 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #fac{
+        padding: 15px;
+        display: none; 
+      }
+
+      #flip3 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #int, #flip4 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #int{
+        padding: 15px;
+        display: none; 
+      }
+
+      #about, #flip5 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #about{
+        padding: 15px;
+        display: none; 
+      }
+
+    #panel, #flip {
+     padding: 5px;
+     text-align: center;
+     background-color: rgb(42, 44, 165);
+     border: solid 1px #c3c3c3;
+     color: white;
+    }
+
+    #panel {
+      padding: 50px;
+     display: none;
+    }
+
+    .zoom:hover{
+      transform: scale(1.2);
+    }
+    </style>
+    
+    <script>
+
+      $(document).ready(function(){
+        $("#flip2").click(function(){
+          $("#fac").slideToggle("slow");
+        });
+      });
+
+    
+      $(document).ready(function(){
+        $("#flip4").click(function(){
+          $("#int").slideToggle("slow");
+        });
+      });
+
+      $(document).ready(function(){
+        $("#flip5").click(function(){
+          $("#about").slideToggle("slow");
+        });
+      });
+
+      
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#panel").slideToggle("slow");
+        });
+      });
+    </script>
+
+
+    <div class="hi">
+    <div class="container">
+      <div class="row">
+        <div class="col" id="flip1"><a href="1.html"> Астана</a></div>
+        <div class="col" id="flip2">Достопримечательности</a></div>
+        <div class="col" id="flip3"> <a href="2.html">Карта</a> </div>
+        <div class="col" id="flip4">Национальные</div>
+        
+      </div>
+    </div>
+    </div>
+
+
+    <div class="all">
+      <div class="fac" id="fac">
+        <p> <a href="6.html">Президентская Резиденция Акорда</a></p>
+        <p><a href="5.html">Дворец мира и согласия</a> </p>
+        <p><a href="4.html">Байтерек</a> </p>
+        <p><a href="3.html">Все</a> </p>
+      </div>
+
+      <div class="int" id="int">
+        <p> <a href="7.html">Блюда</a></p>
+        <p><a href="8.html">Традиции</a></p>
+      </div>
+    </div>
+
+
+    <div class="im">
+      <img class ="img" src="https://nu.edu.kz/media/page/affairs/Sport%20%26%20Facilities/index.jpg" alt="">
+      <p id="astana" >Astana</p>
+    </div>
+
+
+    <div id="flip">Другие города</div>
+    <div id="panel">
+      <div class="row">
+        <div class="col">Алматы</div>
+        <div class="col">Шымкент</div>
+        <div class="col">Кызылорда</div>
+        <div class="col">Актобе</div>
+        <div class="col">Актау</div>
+        <div class="col">Костанай</div>
+      </div>
+    </div>
+
+
+    <div class="main">
+      <div class="Nur" style="align-items: center; padding-right: 20px; margin-top: 170px;">
+        <p style="font-size: 50px;">Astana</p>
+        <p>Астана — молодой город, в котором переплелись восточные традиции и современные архитектурные течения. Удивительный мегаполис, расположенный в степи, поражает воображение своими достопримечательностями. Футуристические здания здесь гармонично соседствуют с традиционными мечетями, а монументальные сооружения органично дополняют динамичную архитектуру восточного города. Великолепный оазис посреди бескрайней степи хранит множество чудес, которые способны впечатлить любого путешественника.</p>
+      </div>
+      <div class="second">
+        <div>
+          <img class="zoom" style="width: 260px; height: 300px;" src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__text_gallery__tg_image_1/public/text_gallery/Astana-2.jpg?h=8f8959b8" alt="">
+          <img class="zoom" style="width: 410px; height: 300px; margin-left: 20px;" src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__text_gallery__tg_image_2/public/text_gallery/Astana-3.jpg?h=92bde60c" alt="">
+        </div>
+        <div>
+          <img class="zoom" style="width: 700px; height: 300px; margin-top: 20px;" src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__text_gallery__tg_image_3/public/text_gallery/Astana-4.jpg?h=76913810" alt="">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

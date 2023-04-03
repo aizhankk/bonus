@@ -1,0 +1,60 @@
+.hi{
+  background-color: rgb(42, 44, 165);
+  color: white;
+  padding: 1.5%;
+  display: flex;
+  text-decoration: none;
+}
+
+.all div{
+  display: flex;
+  position: absolute;
+}
+
+.fac{
+  text-align: center;
+  margin-left: 13%;
+  margin-top: -9%;
+  background-color: white;
+  color: rgb(42, 44, 165);
+  
+}
+
+.int{
+  text-align: center;
+  margin-left: 79%;
+  margin-top: -5%;
+  background-color: white;
+  color: rgb(42, 44, 165);
+}
+
+
+
+#bluda{
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(162, 113, 49);
+}
+
+#dast img{
+  width: 100%;
+  height: 500px;
+}
+
+
+
+
+
+
+.hhh{
+  display: flex;
+}
+
+#info div{
+  padding-top: 3%;
+}
+
+.zoom:hover{
+  transform: scale(1.2);
+}

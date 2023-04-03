@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="3.css">
+	<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <style>
+      #flip1 {
+       padding: 5px;
+       text-align: center;
+     }
+
+     #fac, #flip2 {
+       padding: 5px;
+       text-align: center;
+     }
+
+     #fac{
+       padding: 15px;
+       display: none; 
+     }
+
+     #flip3 {
+       padding: 5px;
+       text-align: center;
+     }
+
+     #int, #flip4 {
+       padding: 5px;
+       text-align: center;
+     }
+
+     #int{
+       padding: 15px;
+       display: none; 
+     }
+
+     #about, #flip5 {
+       padding: 5px;
+       text-align: center;
+     }
+
+     #about{
+       padding: 15px;
+       display: none; 
+     }
+
+
+
+     .zoom:hover{
+      transform: scale(1.2);
+    }
+
+    </style>
+    <script>
+    
+
+
+      $(document).ready(function(){
+        $("#flip2").click(function(){
+          $("#fac").slideToggle("slow");
+        });
+      });
+
+      $(document).ready(function(){
+        $("#flip4").click(function(){
+          $("#int").slideToggle("slow");
+        });
+      });
+
+      $(document).ready(function(){
+        $("#flip5").click(function(){
+          $("#about").slideToggle("slow");
+        });
+      });
+
+
+
+      $(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeToggle();
+    $("#div2").fadeToggle("slow");
+    $("#div3").fadeToggle(3000);
+  });
+});
+    </script>
+    <div class="hi">
+      <div class="container">
+        <div class="row">
+          <div class="col" id="flip1"><a href="1.html"> Астана</a></div>
+        <div class="col" id="flip2">Достопримечательности</a></div>
+        <div class="col" id="flip3"> <a href="2.html">Карта</a> </div>
+        <div class="col" id="flip4">Национальные</div>
+        
+        </div>
+      </div>
+      </div>
+  
+  
+      <div class="all">
+    
+        <div class="fac" id="fac">
+          <p> <a href="6.html">Президентская Резиденция Акорда</a></p>
+        <p><a href="5.html">Дворец мира и согласия</a> </p>
+        <p> <a href="4.html">Байтерек</a> </p>
+        <p> <a href="3.html">Все</a> </p>
+        </div>
+  
+        
+  
+        <div class="int" id="int">
+          <p> <a href="7.html">Блюда</a></p>
+          <p><a href="8.html">Традиции</a></p>
+        </div>
+  
+        
+      </div>
+
+      <p class="dost">Достопримечательности</p>
+
+      <div class="container" id="cont">
+        <div class="menu">
+          <button id="clicker">Click to fade in/out boxes</button><br><br>
+            
+            <div class="zoom" id="div1"><img src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__popular_attractions/public/hero_banner/Palace_of_the_President.jpg" alt=""></div>
+            <br>
+            <div class="zoom"  id="div2"><img src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__popular_attractions/public/hero_banner/Palace_of_Peace_and_Reconciliation.jpg" alt=""></div>
+            <br>
+            <div class="zoom"  id="div3"><img src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__popular_attractions/public/hero_banner/Baiterek.jpg" alt=""></div>
+
+        </div> 
+        <div class="main">
+          <div>
+            <p style="font-size: 30px;">Президентская Резиденция Акорда</p>
+            <p style="font-size: 20px;">резиденция президента Республики Казахстан. Акорда — штаб-квартира Администрации Президента Казахстана.
+               Расположена на левом берегу реки Ишим в столице Казахстана Астане, в начале бульвара Нуржол, в 300 метрах от монумента столицы Байтерек. Рядом с резиденцией находятся Парламент Республики Казахстан, Дом правительства Республики Казахстан, Верховный Суд Республики Казахстан, Дом министерств Республики Казахстан.</p>
+          </div>
+
+          <div>
+            <p style="font-size: 30px;">Дворец мира и согласия</p>
+            <p style="font-size: 20px;">здание пирамидальной формы, созданное архитектором сэром Норманом Фостером в Астане, столице Казахстана, специально для проведения «Конгресса лидеров мировых и традиционных религий».
+               Пирамида — центр религиоведения и веротерпимости. Вмещает оперный зал на 1302 места.
+               Строительство пирамиды завершилось в 2006 году, концертный зал был открыт в 2007 год Монтсеррат Кабалье.</p>
+          </div>
+
+          <div>
+            <p style="font-size: 30px;">Байтерек</p>
+            <p style="font-size: 20px;">Значимость «Байтерека» как символа нового этапа в жизни казахского народа подчёркивается художественной композицией «Аялы алакан» (каз. Аялы алақан — «заботливые руки») с оттиском правой руки президента, расположенной на высоте 97 метров, что символизирует собой 1997 год — год провозглашения Астаны новой столицей государства и соответственно новую точку отсчёта в истории страны.</p>
+          </div>
+
+        </div>
+        <div class="right">
+
+        </div>
+        <div class="footer">
+
+        </div>
+        
+      </div>
+
+  </body>
+</html>

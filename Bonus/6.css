@@ -1,0 +1,112 @@
+.hi{
+  color: rgb(245, 244, 242);
+  padding: 1.5%;
+  position: absolute;
+  font-size: large;
+}
+
+
+
+.all div{
+  display: flex;
+  position: absolute;
+}
+
+.fac{
+  text-align: center;
+  margin-left: 35%;
+  background-color: white;
+  color: rgb(42, 44, 165);
+}
+
+.int{
+  text-align: center;
+  margin-left: 64%;
+  background-color: white;
+  color: rgb(42, 44, 165);
+}
+
+.about{
+  text-align: center;
+  margin-left: 83%;
+  background-color: white;
+  color: rgb(42, 44, 165);
+}
+
+#dvorec{
+  position: absolute;
+  font-size: 70px;
+  margin-top: -450px;
+  margin-left: 290px;
+  color: white;
+}
+
+
+
+#flip1 {
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+#fac, #flip2 {
+  padding: 5px;
+  text-align: center;
+}
+
+#fac{
+  padding: 15px;
+  display: none; 
+}
+
+#flip3 {
+  padding: 5px;
+  text-align: center;
+}
+
+
+#int, #flip4 {
+  padding: 5px;
+  text-align: center;
+}
+
+#int{
+  padding: 15px;
+  display: none; 
+}
+
+#about, #flip5 {
+  padding: 5px;
+  text-align: center;
+}
+
+#about{
+  padding: 15px;
+  display: none; 
+}
+
+.img{
+  width: 1520px;
+  height: 753px;
+}
+
+#nz{
+  display: flex;
+  padding: 40px;
+  margin: 20px;
+}
+
+#nz div{
+  padding: 10px;
+}
+
+#nz img{
+  height: 400px;
+  width: 330px;
+}
+
+
+.zoom:hover{
+  transform: scale(1.2);
+}

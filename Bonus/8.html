@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="7.css">
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <style>
+       #flip1 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #fac, #flip2 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #fac{
+        padding: 15px;
+        display: none; 
+      }
+
+      #flip3 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #int, #flip4 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #int{
+        padding: 15px;
+        display: none; 
+      }
+
+      #about, #flip5 {
+        padding: 5px;
+        text-align: center;
+      }
+
+      #about{
+        padding: 15px;
+        display: none; 
+      }
+
+    #panel, #flip {
+     padding: 5px;
+     text-align: center;
+     background-color: rgb(42, 44, 165);
+     border: solid 1px #c3c3c3;
+     color: white;
+    }
+
+    #panel {
+      padding: 50px;
+     display: none;
+    }
+    </style>
+    
+    <script>
+
+      $(document).ready(function(){
+        $("#flip2").click(function(){
+          $("#fac").slideToggle("slow");
+        });
+      });
+
+
+      $(document).ready(function(){
+        $("#flip4").click(function(){
+          $("#int").slideToggle("slow");
+        });
+      });
+
+      $(document).ready(function(){
+        $("#flip5").click(function(){
+          $("#about").slideToggle("slow");
+        });
+      });
+
+      
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#panel").slideToggle("slow");
+        });
+      });
+
+
+
+
+
+
+       
+$(document).ready(function(){
+  $(".but").click(function(){
+    $(".ani").animate({
+      height: 'toggle'
+    });
+  });
+});
+
+
+
+
+$(document).ready(function(){
+  $(".but2").click(function(){
+    $(".ani2").animate({
+      right: '250px',
+      height: '500px',
+      width: '800px'
+    });
+  });
+});
+
+    </script>
+
+
+    <div class="hi">
+    <div class="container" id="another">
+      <div class="row">
+        <div class="col" id="flip1"><a href="1.html"> Астана</a></div>
+        <div class="col" id="flip2">Достопримечательности</a></div>
+        <div class="col" id="flip3"> <a href="2.html">Карта</a> </div>
+        <div class="col" id="flip4">Национальные</div>
+        
+      </div>
+    </div>
+    </div>
+
+
+    <div class="all">
+      <div class="fac" id="fac">
+        <p> <a href="6.html">Президентская Резиденция Акорда</a></p>
+        <p><a href="5.html">Дворец мира и согласия</a> </p>
+        <p> <a href="4.html">Байтерек</a> </p>
+        <p> <a href="3.html">Все</a> </p>
+      </div>
+
+      <div class="int" id="int">
+        <p> <a href="7.html">Блюда</a></p>
+        <p><a href="8.html">Традиции</a></p>
+      </div>
+    </div>
+
+
+
+    <p id="bluda">Национальные традиции Казахов</p>
+
+    <div class="container">
+       
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/SB_-_Inside_a_Kazakh_yurt.jpg/400px-SB_-_Inside_a_Kazakh_yurt.jpg" alt="Los Angeles" style="width:100%; height: 600px;">
+          </div>
+    
+          <div class="item">
+            <img src="https://static.365info.kz/uploads/2019/10/a138d6eeb75650cf43ee6faad4ff2525-e1571390396984.jpg" alt="Chicago" style="width:100%; height: 600px;">
+          </div>
+        
+          <div class="item">
+            <img src="https://assembly.kz/sites/default/files/u113/34510310.rpiziwlilm_0.jpg" alt="New york" style="width:100%; height: 600px;">
+          </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+
+    
+    
+
+    <div style="margin-top: 5%;" class="container" id="info" >
+      <div class="hhh">
+        <div style="margin-top: 9%;">
+          <h3 class="but">«Шілдехана» — щит новорождённого</h2>
+          <h5>Рождению ребенка так же уделялось огромное внимание. В багаже казахов этому событию посвящен ряд традиционных обрядов, которые оберегают новорождённого до достижения им определенного возраста. Так, первым в жизни человека был праздник рождения ребенка, который назывался «шілдехана».</h5>
+        </div>
+        <div class="ani">
+          <img src="https://assembly.kz/upload/iblock/3cf/3cf4dc681c9418bc2c6788086c9e5e94.jpg" alt="">
+        </div>
+      </div>
+
+
+
+      <div class="hhh">
+        <div id="divvv" style="margin-top: 9%; position:relative;">
+          <h3 class="but2" >"Тусаукесер"</h2>
+          <h5>одна из самых старинных казахских традиций, которая соблюдается до сих пор. Обряд посвящен малышу, и делают его для того, чтобы он быстро встал на ноги.
+
+            Считается, что обычай тусау кесу существует у казахов еще со времен тенгрианства. Как правило, его проводят как только ребенок начинает делать первые шаги. Чаще всего это происходит, когда малышу исполняется год.</h5>
+        </div>
+        <div >
+          <img class="ani2" src="https://i.mycdn.me/i?r=AyH4iRPQ2q0otWIFepML2LxRUT-nyliTzEuv146c1gOQNg&fn=w_612" alt="">
+        </div>
+      </div>
+
+
+
+      <div class="hhh">
+        <div id="divvv" >
+          
+          <img class="zoom" src="https://e-history.kz/storage/upload/news_ru_files/iblock/42b/42bc19f55ea555c792a45660fd01bdf2.jpg" alt="">
+        </div>
+        <div style="padding: 2%; margin-top: 9%; ">
+          <h3>"Беташар"</h2>
+            <h5>Беташар проводится для родственников жениха, которые никогда  ранее не видели невесту. Так проходит их первое знакомство. В наше время беташар проводят прямо на главной свадьбе, после проводов невесты. Тамада начинает исполнять традиционную песню со словами напутствия. Лицо девушки накрывают платком или фатой и выводят к собравшимся гостям. </h5>
+        </div>
+      </div>
+
+
+      <div class="hhh">
+        <div id="divvv"  style="margin-top: 6%;">
+          <h3>"Кудалы́к"</h2>
+          <h5>национальный обряд сватовства у казахов , а также у ногайцев , узбеков , туркмен и киргизов . Самая ответственная и престижная часть свадебного обряда.
+            В ходе кудалыка родители, родственники или опекуны малолетних или даже находящихся в утробе матери детей договариваются об условиях заключения брака в будущем. В советской Туркмении совершение кудалыка наказывалось лишением свободы до одного года.</h5>
+        </div>
+        <div>
+          <img class="zoom" src="https://flomaster.club/uploads/posts/2022-07/thumbs/1657138342_35-flomaster-club-p-kazakhskie-traditsii-risunki-krasivo-36.jpg" alt="">
+        </div>
+      </div>
+
+
+      <div class="hhh">
+        <div>
+          <img class="zoom" src="https://static.islam.kz/uploads/images/QK7/X8W/pYMGJEhmwhoZHoCL-lg.jpg" alt="">
+        </div>
+        <div id="divvv" style="margin-top: 9%; padding: 2%;">
+          <h3>"Kыз узату" - Қыз ұзату тойы</h2>
+          <h5>одна из разновидностей национальных сладостей, которые любят готовить казахские кулинары. В чем особенности казахского блюда жент? Его делают из пшена, сахара и сливочного масла с добавлением изюма. Промытое пшено обжаривают на сухой сковороде, измельчают вместе с сахаром в муку. Добавляют изюм, все хорошо перемешивают. Сливочным топленым маслом заливают пшенную муку, аккуратно перемешивают.</h5>
+        </div>
+      </div>
+      
+
+    </div>
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.hi{
+  background-color: rgb(42, 44, 165);
+  color: white;
+  padding: 1.5%;
+  display: flex;
+}
+
+
+
+.all div{
+  display: flex;
+  position: absolute;
+}
+
+.fac{
+  text-align: center;
+  margin-left: 29%;
+  background-color: white;
+  color: rgb(42, 44, 165);
+}
+.int{
+  text-align: center;
+  margin-left: 79%;
+  background-color: white;
+  color: rgb(42, 44, 165);
+}
+
+
+#goroda img{
+  height: 500px;
+  width: 700px;
+}
+
+#goroda div{
+  display: flex;
+  padding-top: 50px;
+}
+
+
